@@ -1,0 +1,131 @@
+body {
+  color: #444b5b;
+  background: #e7edf2;
+}
+body,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+}
+h1 {
+  clear: both;
+  font-size: 5.5em;
+  text-align: center;
+  width: 868px;
+  margin: 20px auto;
+  overflow: visible;
+}
+h1 span {
+  float: left;
+}
+h1 span:first-child,
+h1 span:last-child {
+  margin-top: 70px;
+}
+h2 {
+  clear: both;
+  text-align: center;
+  font-size: 3.5em;
+  margin: 20px;
+  padding-top: 20px;
+}
+h3 {
+  font-size: 2.1em;
+}
+p {
+  font-size: 1.2em;
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+.btn-primary {
+  background: #95a6b7;
+  color: #000;
+  border: 1px solid #95a6b7;
+}
+.btn-primary:hover {
+  background: #e7edf2;
+  color: #000;
+  border: 1px solid #e7edf2;
+}
+a.btn {
+  text-decoration: none;
+}
+#logo {
+  background: url("../images/logo.png");
+  width: 246px;
+  height: 246px;
+  display: block;
+  margin: 0 20px;
+/*-webkit-transition: all .5s ease-in-out; */
+}
+.topBackgroundColor {
+  background: #444b5b;
+  color: #fff;
+}
+.middleBackgroundColor {
+  background: #f2eee9;
+}
+.bottomBackgroundColor {
+  background: #444b5b;
+  color: #fff;
+}
+dl {
+  font-size: 1.2em;
+}
+dl dt {
+  font-weight: normal;
+}
+dl dd {
+  margin-left: 20px;
+}
+#contactForm ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#contactForm li {
+  margin-bottom: 15px;
+}
+#contactForm input,
+#contactForm textarea,
+#contactForm button {
+  width: 100%;
+  resize: none;
+}
+#contactForm textarea {
+  height: 100px;
+}
+@media (max-width: 868px) {
+  h1 {
+    font-size: 4.5em;
+    width: 761px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    width: auto;
+    margin: 20px;
+    font-size: 4em;
+  }
+  h1 span {
+    float: none;
+  }
+  #logo {
+    margin: 0 auto;
+    background-size: 123px 123px;
+    width: 123px;
+    height: 123px;
+    margin-bottom: -10px;
+  }
+  h2 {
+    font-size: 2.4em;
+    padding-top: 0;
+  }
+  h3 {
+    font-size: 2em;
+  }
+}

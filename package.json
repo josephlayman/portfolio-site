@@ -1,0 +1,19 @@
+{
+  "author": "Joe Layman",
+  "name": "node-template",
+  "description": "node-template",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/josephlayman/node-template"
+  },
+  "engines": {
+    "node": "~0.10.10"
+  },
+  "dependencies": {
+    "express": "~3.4.0",
+    "ejs": "~0.8.4",
+    "express-ejs-layouts": "~0.3.1",
+    "stylus": "~0.38.0"
+  },
+  "devDependencies": {}
+}
