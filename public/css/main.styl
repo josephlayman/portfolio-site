@@ -1,147 +1,102 @@
+theBlue = #B6EAFF
 
-darkBlue = #444B5B
-lightTan = #F2EEE9
-lightBlue = #95A6B7
-lightestBlue = #E7EDF2
+.theBlue
+	color: #B6EAFF
 
+#bg
+	position: fixed
+	top: -50%
+	left: -50%
+	width: 200%
+	height: 700px
+	z-index: -1
+
+	img
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		margin: auto
+		min-width: 50%
+		min-height: 50%
+
+html
+	background: #333
+	color: #eee
 
 body
-	color: darkBlue
-	background: lightestBlue
+	background: transparent
+	color: #eee
 
-body, h1, h2, h3, h4
-	font-family: 'Quicksand', Helvetica, Arial, sans-serif
+.navWrapper
+	overflow: auto
+	clear: both
+	list-style: none
+	margin: 0
+	padding: 0
+	margin-top: 20px
+	position: relative
+	left: -50%
+	float: left
+
+	li
+		float: left
+		margin-right: 20px
+		&:last-child
+			margin-right: 0
+	a
+		padding: 10px 20px
+		color: #eee
+		font-size: 1.3em;
+		border: 2px solid #eee
+		border-radius: 6px
+		display: block
+
+		&:hover
+			text-decoration: none
+			background: rgba( 255, 255, 255, .2 )
+
+	.active
+		color: theBlue
+		border-color: theBlue
 
 h1
+	font-size: 6em
 	clear: both
-	font-size: 5.5em
 	text-align: center
-	width: 868px
-	margin: 20px auto
-	overflow: visible
-
-	span
-		float: left
-
-		&:first-child, &:last-child 
-			margin-top: 70px
+	padding-top: 120px
 
 h2
+	font-size: 3em
 	clear: both
 	text-align: center
-	font-size: 3.5em
-	margin: 20px
-	padding-top: 20px
+	margin-top: 100px
+	margin-bottom: 180px
 
 h3
-	font-size: 2.1em
+	font-size: 2.5em
 
 p
 	font-size: 1.2em
 
-a
-	color: inherit
-	text-decoration: underline
+.section1
+	background: #222 url(../images/bg_2.jpg) no-repeat center bottom
+	overflow: hidden
 
+.section2
+	min-height: 400px
 
-.btn-primary
-	background: lightBlue
-	color: black
-	border: 1px solid lightBlue
+.section3
+	min-height: 400px
+	background: #222
 
-	&:hover
-		background: lightestBlue
-		color: black
-		border: 1px solid lightestBlue
-
-a.btn
-	text-decoration: none
-
-#logo 
-	background: url(../images/logo.png)
-	width: 246px
-	height: 246px
-	display: block
-	margin: 0 20px
-
-	/*-webkit-transition: all .5s ease-in-out; */
-
-	&:hover
-		/*-webkit-transform: rotate(360deg);*/
-
-
-.topBackgroundColor
-	background: darkBlue
-	color: white
-
-.middleBackgroundColor
-	background: lightTan
-
-.bottomBackgroundColor
-	background: darkBlue
-	color: white
-
-
-
-dl 
-	font-size: 1.2em
-
-	dt
-		font-weight: normal
-
-	dd
-		margin-left: 20px
-
-
-#contactForm
-
-
-	ul
-		margin: 0
-		padding: 0
-		list-style: none
-
-	li
-		margin-bottom: 15px
-
-	input, textarea, button
-		width: 100%
-		resize: none
-
-	textarea
-		height: 100px
+.section4
+	min-height: 400px
 
 
 
 
-@media (max-width: 868px)
-	h1
-		font-size: 4.5em
-		width: 761px
-
-@media (max-width: 767px)
-
-	h1
-		width: auto
-		margin: 20px;
-		font-size: 4em
-			
-		span
-			float: none
 
 
-	#logo 
-		margin: 0 auto
-		background-size: 123px 123px
-		width: 123px
-		height: 123px
-		margin-bottom: -10px
-
-
-	h2
-		font-size: 2.4em
-		padding-top: 0
-
-	h3
-		font-size: 2em
 
