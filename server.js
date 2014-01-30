@@ -12,6 +12,7 @@ var
 app.configure(function () {
 
     app.use(express.limit('10mb'));
+    app.use(express.favicon('public/images/favicon.png')); 
     
     app.set('views', __dirname + '/views');
     app.set('view engine', 'ejs');
